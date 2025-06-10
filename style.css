@@ -1,0 +1,37 @@
+
+    .hero {
+      background-image: url('./Images/img\ 2.jpeg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 2rem;
+    }
+
+    .feature {
+      flex: 1 1 30%;
+      margin: 1rem;
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background: #f9f9f9;
+      text-align: center;
+    }
+
+    footer {
+      background: #343a40;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+  
